@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-04T11:19:52 IST" name="Surefire suite" finished-at="2025-03-04T11:20:12 IST" duration-ms="20735">
+    <groups>
+    </groups>
+    <test started-at="2025-03-04T11:19:52 IST" name="Surefire test" finished-at="2025-03-04T11:20:12 IST" duration-ms="20735">
+      <class name="Tests.Test3">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests.Test3@37afeb11]" started-at="2025-03-04T11:19:52 IST" name="set" finished-at="2025-03-04T11:19:55 IST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="test()[pri:0, instance:Tests.Test3@37afeb11]" started-at="2025-03-04T11:19:55 IST" name="test" finished-at="2025-03-04T11:19:55 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests.Test3@37afeb11]" started-at="2025-03-04T11:19:55 IST" name="down" finished-at="2025-03-04T11:19:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests.Test3 -->
+      <class name="Tests2.hh">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.hh@5c5eefef]" started-at="2025-03-04T11:19:58 IST" name="set" finished-at="2025-03-04T11:20:01 IST" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="tt()[pri:0, instance:Tests2.hh@5c5eefef]" started-at="2025-03-04T11:20:01 IST" name="tt" finished-at="2025-03-04T11:20:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tt -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.hh@5c5eefef]" started-at="2025-03-04T11:20:01 IST" name="down" finished-at="2025-03-04T11:20:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests2.hh -->
+      <class name="Tests.TestDemo">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests.TestDemo@222545dc]" started-at="2025-03-04T11:19:55 IST" name="set" finished-at="2025-03-04T11:19:58 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="test()[pri:0, instance:Tests.TestDemo@222545dc]" started-at="2025-03-04T11:19:58 IST" name="test" finished-at="2025-03-04T11:19:58 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests.TestDemo@222545dc]" started-at="2025-03-04T11:19:58 IST" name="down" finished-at="2025-03-04T11:19:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests.TestDemo -->
+      <class name="Tests2.MyTest">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.MyTest@16293aa2]" started-at="2025-03-04T11:20:01 IST" name="set" finished-at="2025-03-04T11:20:07 IST" duration-ms="5898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="te()[pri:0, instance:Tests2.MyTest@16293aa2]" started-at="2025-03-04T11:20:07 IST" name="te" finished-at="2025-03-04T11:20:12 IST" duration-ms="5771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- te -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.MyTest@16293aa2]" started-at="2025-03-04T11:20:12 IST" name="down" finished-at="2025-03-04T11:20:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests2.MyTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

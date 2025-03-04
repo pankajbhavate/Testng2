@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Tests.TestDemo">
+        <methods>
+          <include name="test"/>
+          <include name="set"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- Tests.TestDemo -->
+      <class name="Tests2.hh">
+        <methods>
+          <include name="down"/>
+          <include name="tt"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- Tests2.hh -->
+      <class name="Tests2.MyTest">
+        <methods>
+          <include name="down"/>
+          <include name="set"/>
+          <include name="te"/>
+        </methods>
+      </class> <!-- Tests2.MyTest -->
+      <class name="Tests.Test3">
+        <methods>
+          <include name="set"/>
+          <include name="test"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- Tests.Test3 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
