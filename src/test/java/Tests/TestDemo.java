@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestDemo {
 	
 	
-	WebDriver driver;
+	public WebDriver driver;
 	@BeforeClass
 	public void set() {
 		WebDriverManager.chromedriver().setup();

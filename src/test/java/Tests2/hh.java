@@ -12,7 +12,7 @@ public class hh {
 	
 	
 	
-	WebDriver driver;
+	public WebDriver driver;
 	
 	@BeforeClass
 	public void set() {

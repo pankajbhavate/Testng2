@@ -22,7 +22,7 @@ public class Test3 {
 
 		
 		
-		WebDriver driver;
+	public	WebDriver driver;
 		@BeforeClass
 		public void set() {
 			WebDriverManager.chromedriver().setup();
