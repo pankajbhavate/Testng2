@@ -1,91 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-04T12:30:08 IST" name="Default suite" finished-at="2025-03-04T12:30:12 IST" duration-ms="3503">
+  <suite started-at="2025-03-25T09:28:10 IST" name="Suite" finished-at="2025-03-25T09:28:28 IST" duration-ms="17976">
     <groups>
     </groups>
-    <test started-at="2025-03-04T12:30:08 IST" name="Default test" finished-at="2025-03-04T12:30:12 IST" duration-ms="3503">
-      <class name="Tests2.MyTest">
-        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.MyTest@5f16132a]" started-at="2025-03-04T12:30:08 IST" name="set" finished-at="2025-03-04T12:30:11 IST" duration-ms="3321" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method signature="te()[pri:0, instance:Tests2.MyTest@5f16132a]" started-at="2025-03-04T12:30:11 IST" name="te" finished-at="2025-03-04T12:30:12 IST" duration-ms="95" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+    <test started-at="2025-03-25T09:28:10 IST" name="Test" finished-at="2025-03-25T09:28:28 IST" duration-ms="17976">
+      <class name="Tests.Test3">
+        <test-method is-config="true" signature="set(java.lang.String)[pri:0, instance:Tests.Test3@1fb700ee]" started-at="2025-03-25T09:28:16 IST" name="set" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1742875096296" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=133.0.6943.142)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3e0f44180757cbd25b7a6ade23db1ff1, findElement {value=menu-item-53896, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55016/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3e0f44180757cbd25b7a6ade23db1ff1]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=133.0.6943.142)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3e0f44180757cbd25b7a6ade23db1ff1, findElement {value=menu-item-53896, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55016/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3e0f44180757cbd25b7a6ade23db1ff1
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at Tests2.MyTest.te(MyTest.java:27)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="test()[pri:0, instance:Tests.Test3@1fb700ee]" started-at="2025-03-25T09:28:16 IST" name="test" finished-at="2025-03-25T09:28:16 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests.Test3@1fb700ee]" started-at="2025-03-25T09:28:16 IST" name="down" finished-at="2025-03-25T09:28:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests.Test3 -->
+      <class name="Tests2.hh">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.hh@4f67eb2a]" started-at="2025-03-25T09:28:16 IST" name="set" finished-at="2025-03-25T09:28:20 IST" duration-ms="4534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="tt()[pri:0, instance:Tests2.hh@4f67eb2a]" started-at="2025-03-25T09:28:20 IST" name="tt" finished-at="2025-03-25T09:28:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tt -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.hh@4f67eb2a]" started-at="2025-03-25T09:28:21 IST" name="down" finished-at="2025-03-25T09:28:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests2.hh -->
+      <class name="Tests.TestDemo">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests.TestDemo@c03cf28]" started-at="2025-03-25T09:28:10 IST" name="set" finished-at="2025-03-25T09:28:15 IST" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="test()[pri:0, instance:Tests.TestDemo@c03cf28]" started-at="2025-03-25T09:28:15 IST" name="test" finished-at="2025-03-25T09:28:16 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests.TestDemo@c03cf28]" started-at="2025-03-25T09:28:16 IST" name="down" finished-at="2025-03-25T09:28:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests.TestDemo -->
+      <class name="Tests2.MyTest">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.MyTest@4a668b6e]" started-at="2025-03-25T09:28:21 IST" name="set" finished-at="2025-03-25T09:28:25 IST" duration-ms="3963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="te()[pri:0, instance:Tests2.MyTest@4a668b6e]" started-at="2025-03-25T09:28:25 IST" name="te" finished-at="2025-03-25T09:28:28 IST" duration-ms="3007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- te -->
-        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.MyTest@5f16132a]" started-at="2025-03-04T12:30:12 IST" name="down" finished-at="2025-03-04T12:30:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.MyTest@4a668b6e]" started-at="2025-03-25T09:28:28 IST" name="down" finished-at="2025-03-25T09:28:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- down -->
       </class> <!-- Tests2.MyTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

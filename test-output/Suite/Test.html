@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 04 12:28:18 IST 2025</td>
+<td>Started on:</td><td>Tue Mar 25 09:28:10 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>44 seconds (44987 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17976 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,63 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.Test3.set()'><b>set</b><br>Test class: Tests.Test3</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1414563507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1414563507'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>-1742875096</td>
+<td>Tests.Test3@1fb700ee</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.Test3.down()'><b>down</b><br>Test class: Tests.Test3</td>
+<td></td>
+<td>0</td>
+<td>Tests.Test3@1fb700ee</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,25 +133,63 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.TestDemo.test()'><b>test</b><br>Test class: Tests.TestDemo</td>
-<td></td>
-<td>0</td>
-<td>Tests.TestDemo@3c947bc5</td></tr>
-<tr>
 <td title='Tests2.hh.tt()'><b>tt</b><br>Test class: Tests2.hh</td>
 <td></td>
 <td>0</td>
-<td>Tests2.hh@41c2284a</td></tr>
-<tr>
-<td title='Tests.Test3.test()'><b>test</b><br>Test class: Tests.Test3</td>
-<td></td>
-<td>0</td>
-<td>Tests.Test3@6497b078</td></tr>
+<td>Tests2.hh@4f67eb2a</td></tr>
 <tr>
 <td title='Tests2.MyTest.te()'><b>te</b><br>Test class: Tests2.MyTest</td>
 <td></td>
-<td>24</td>
-<td>Tests2.MyTest@53aad5d5</td></tr>
+<td>3</td>
+<td>Tests2.MyTest@4a668b6e</td></tr>
+<tr>
+<td title='Tests.TestDemo.test()'><b>test</b><br>Test class: Tests.TestDemo</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestDemo@c03cf28</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.Test3.test()'><b>test</b><br>Test class: Tests.Test3</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace681536071", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace681536071'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>Tests.Test3@1fb700ee</td></tr>
 </table><p>
 </body>
 </html>
