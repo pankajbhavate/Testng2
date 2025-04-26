@@ -139,6 +139,7 @@
 					<configuration>
 					<suiteXmlFiles>
 					<suiteXmlFile>testngtt.xml</suiteXmlFile>
+					<suiteXmlFile>testngcross.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					</configuration>
 				</plugin>

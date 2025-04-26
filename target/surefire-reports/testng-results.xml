@@ -1,67 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-15T19:50:12 IST" name="Suite" finished-at="2025-03-15T19:50:37 IST" duration-ms="24693">
+  <suite started-at="2025-04-26T10:51:06 IST" name="Suite" finished-at="2025-04-26T10:51:34 IST" duration-ms="27591">
     <groups>
     </groups>
-    <test started-at="2025-03-15T19:50:12 IST" name="Test" finished-at="2025-03-15T19:50:37 IST" duration-ms="24693">
+    <test started-at="2025-04-26T10:51:06 IST" name="Test" finished-at="2025-04-26T10:51:34 IST" duration-ms="27591">
       <class name="Tests.Test3">
-        <test-method is-config="true" signature="set()[pri:0, instance:Tests.Test3@752325ad]" started-at="2025-03-15T19:50:18 IST" name="set" finished-at="2025-03-15T19:50:20 IST" duration-ms="1878" status="PASS">
+        <test-method is-config="true" signature="set(java.lang.String)[pri:0, instance:Tests.Test3@6ad82709]" started-at="2025-04-26T10:51:15 IST" name="set" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1745644875444" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method signature="test()[pri:0, instance:Tests.Test3@752325ad]" started-at="2025-03-15T19:50:20 IST" name="test" finished-at="2025-03-15T19:50:20 IST" duration-ms="164" status="PASS">
+        <test-method signature="test()[pri:0, instance:Tests.Test3@6ad82709]" started-at="2025-04-26T10:51:15 IST" name="test" finished-at="2025-04-26T10:51:15 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="down()[pri:0, instance:Tests.Test3@752325ad]" started-at="2025-03-15T19:50:20 IST" name="down" finished-at="2025-03-15T19:50:20 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests.Test3@6ad82709]" started-at="2025-04-26T10:51:15 IST" name="down" finished-at="2025-04-26T10:51:15 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- down -->
       </class> <!-- Tests.Test3 -->
       <class name="Tests2.hh">
-        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.hh@279fedbd]" started-at="2025-03-15T19:50:20 IST" name="set" finished-at="2025-03-15T19:50:25 IST" duration-ms="4766" status="PASS">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.hh@510f3d34]" started-at="2025-04-26T10:51:15 IST" name="set" finished-at="2025-04-26T10:51:21 IST" duration-ms="5801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method signature="tt()[pri:0, instance:Tests2.hh@279fedbd]" started-at="2025-03-15T19:50:25 IST" name="tt" finished-at="2025-03-15T19:50:25 IST" duration-ms="2" status="PASS">
+        <test-method signature="tt()[pri:0, instance:Tests2.hh@510f3d34]" started-at="2025-04-26T10:51:21 IST" name="tt" finished-at="2025-04-26T10:51:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tt -->
-        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.hh@279fedbd]" started-at="2025-03-15T19:50:25 IST" name="down" finished-at="2025-03-15T19:50:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.hh@510f3d34]" started-at="2025-04-26T10:51:21 IST" name="down" finished-at="2025-04-26T10:51:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- down -->
       </class> <!-- Tests2.hh -->
       <class name="Tests.TestDemo">
-        <test-method is-config="true" signature="set()[pri:0, instance:Tests.TestDemo@7a8c8dcf]" started-at="2025-03-15T19:50:12 IST" name="set" finished-at="2025-03-15T19:50:17 IST" duration-ms="5138" status="PASS">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests.TestDemo@45c7e403]" started-at="2025-04-26T10:51:07 IST" name="set" finished-at="2025-04-26T10:51:14 IST" duration-ms="7907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method signature="test()[pri:0, instance:Tests.TestDemo@7a8c8dcf]" started-at="2025-03-15T19:50:17 IST" name="test" finished-at="2025-03-15T19:50:18 IST" duration-ms="172" status="PASS">
+        <test-method signature="test()[pri:0, instance:Tests.TestDemo@45c7e403]" started-at="2025-04-26T10:51:14 IST" name="test" finished-at="2025-04-26T10:51:15 IST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="down()[pri:0, instance:Tests.TestDemo@7a8c8dcf]" started-at="2025-03-15T19:50:18 IST" name="down" finished-at="2025-03-15T19:50:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests.TestDemo@45c7e403]" started-at="2025-04-26T10:51:15 IST" name="down" finished-at="2025-04-26T10:51:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- down -->
       </class> <!-- Tests.TestDemo -->
       <class name="Tests2.MyTest">
-        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.MyTest@b3ca52e]" started-at="2025-03-15T19:50:25 IST" name="set" finished-at="2025-03-15T19:50:33 IST" duration-ms="7955" status="PASS">
+        <test-method is-config="true" signature="set()[pri:0, instance:Tests2.MyTest@7817fd62]" started-at="2025-04-26T10:51:21 IST" name="set" finished-at="2025-04-26T10:51:33 IST" duration-ms="12072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method signature="te()[pri:0, instance:Tests2.MyTest@b3ca52e]" started-at="2025-03-15T19:50:33 IST" name="te" finished-at="2025-03-15T19:50:36 IST" duration-ms="3526" status="PASS">
+        <test-method signature="te()[pri:0, instance:Tests2.MyTest@7817fd62]" started-at="2025-04-26T10:51:33 IST" name="te" finished-at="2025-04-26T10:51:33 IST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- te -->
-        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.MyTest@b3ca52e]" started-at="2025-03-15T19:50:37 IST" name="down" finished-at="2025-03-15T19:50:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests2.MyTest@7817fd62]" started-at="2025-04-26T10:51:34 IST" name="down" finished-at="2025-04-26T10:51:34 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- down -->
       </class> <!-- Tests2.MyTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+  <suite started-at="2025-04-26T10:51:35 IST" name="Suite (0)" finished-at="2025-04-26T10:51:45 IST" duration-ms="10032">
+    <groups>
+    </groups>
+    <test started-at="2025-04-26T10:51:35 IST" name="Test" finished-at="2025-04-26T10:51:40 IST" duration-ms="5162">
+      <class name="Tests.Test3">
+        <test-method is-config="true" signature="set(java.lang.String)[pri:0, instance:Tests.Test3@1e178745]" started-at="2025-04-26T10:51:35 IST" name="set" finished-at="2025-04-26T10:51:40 IST" duration-ms="4824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="test()[pri:0, instance:Tests.Test3@1e178745]" started-at="2025-04-26T10:51:40 IST" name="test" finished-at="2025-04-26T10:51:40 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests.Test3@1e178745]" started-at="2025-04-26T10:51:40 IST" name="down" finished-at="2025-04-26T10:51:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests.Test3 -->
+    </test> <!-- Test -->
+    <test started-at="2025-04-26T10:51:41 IST" name="Test1" finished-at="2025-04-26T10:51:45 IST" duration-ms="4744">
+      <class name="Tests.Test3">
+        <test-method is-config="true" signature="set(java.lang.String)[pri:0, instance:Tests.Test3@26b3fd41]" started-at="2025-04-26T10:51:41 IST" name="set" finished-at="2025-04-26T10:51:45 IST" duration-ms="4300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="test()[pri:0, instance:Tests.Test3@26b3fd41]" started-at="2025-04-26T10:51:45 IST" name="test" finished-at="2025-04-26T10:51:45 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="down()[pri:0, instance:Tests.Test3@26b3fd41]" started-at="2025-04-26T10:51:45 IST" name="down" finished-at="2025-04-26T10:51:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- Tests.Test3 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite (0) -->
 </testng-results>

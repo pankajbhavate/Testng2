@@ -13,18 +13,24 @@ public class TestDemo {
 	
 	
 	public WebDriver driver;
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void set() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.globalsqa.com/");
 		
 	}
 	@Test
 	public void test() {
 		
-		driver.findElement(By.id("email")).sendKeys("anadraj");
-		driver.findElement(By.id("pass")).sendKeys("mahindra");
+	driver.findElement(By.xpath("//a[text()=\"Tester’s Hub\"]")).click();
+	
+	}
+	
+	@Test(groups = "about")
+	public void test1() {
+		driver.findElement(By.xpath("//a[text()=\"About\"]")).click();
+				
 		
 	}
 	@AfterClass

@@ -9,13 +9,39 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">24,693</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">27,591</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite (0)</th></tr>
+<tr class="stripe"><td><a href="#t1">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,162</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">4,744</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">37,497</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.Test3</td><td><a href="#m0">test</a></td><td rowspan="1">1742048420108</td><td rowspan="1">164</td></tr><tr class="passedodd"><td rowspan="1">Tests.TestDemo</td><td><a href="#m1">test</a></td><td rowspan="1">1742048417889</td><td rowspan="1">172</td></tr><tr class="passedeven"><td rowspan="1">Tests2.MyTest</td><td><a href="#m2">te</a></td><td rowspan="1">1742048433325</td><td rowspan="1">3526</td></tr><tr class="passedodd"><td rowspan="1">Tests2.hh</td><td><a href="#m3">tt</a></td><td rowspan="1">1742048425217</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Tests.Test3</td><td><a href="#m0">set</a></td><td rowspan="1">1745644875444</td><td rowspan="1">-1745644875444</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">Tests.Test3</td><td><a href="#m1">down</a></td><td rowspan="1">1745644875474</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Tests.Test3</td><td><a href="#m2">test</a></td><td rowspan="1">1745644875472</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.TestDemo</td><td><a href="#m3">test</a></td><td rowspan="1">1745644874984</td><td rowspan="1">218</td></tr><tr class="passedodd"><td rowspan="1">Tests2.MyTest</td><td><a href="#m4">te</a></td><td rowspan="1">1745644893528</td><td rowspan="1">147</td></tr><tr class="passedeven"><td rowspan="1">Tests2.hh</td><td><a href="#m5">tt</a></td><td rowspan="1">1745644881277</td><td rowspan="1">1</td></tr></tbody>
+<tbody><tr><th colspan="4">Suite (0)</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.Test3</td><td><a href="#m6">test</a></td><td rowspan="1">1745644900618</td><td rowspan="1">195</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.Test3</td><td><a href="#m7">test</a></td><td rowspan="1">1745644905380</td><td rowspan="1">251</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">Tests.Test3#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Tests.TestDemo#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Tests2.MyTest#te</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Tests2.hh#tt</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">Tests.Test3#set</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Tests.Test3#down</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Tests.Test3#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method set but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNG2\testngtt.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Tests.TestDemo#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Tests2.MyTest#te</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Tests2.hh#tt</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m6">Tests.Test3#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m7">Tests.Test3#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

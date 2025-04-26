@@ -43,7 +43,7 @@ public class Test3 {
 			
 				
 			
-			driver.get("https://www.facebook.com/");}}
+			driver.get("https://www.globalsqa.com/demo-site/datepicker/");}}
 			
 			
 		
